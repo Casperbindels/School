@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Pagina Title-->
+    <title>Compushop C.V.C | Product Keuzen</title>
+
+    <!--Links voor Bootstrap en jQuery-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Dit script laad header.html in de div met het ID header-->
+    <script>
+      // $ = query selector
+      $(document).ready(function () {
+        // .ready betekend dat de functie uitgevoerd kan worden als het document geladen is
+        $("#header").load("header.html");
+        $("#copyright").load("copyright.html");
+        // .load is een onderdeel van jQuery
+      });
+    </script>
+
+    <!--Link voor de Pagina CSS-->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/product_keuzen.css" />
+  </head>
+
+  <body>
+    <!--Deze div maakt de eerder ingeladen header en navigation bar "sticky-top"-->
+    <div id="header" class="sticky-top"></div>
+
+    <div class="container-float">
+      <div class="row">
+        <!-- Grid systeem = 12, wij gebruiken er 6 -->
+        <div class="col col-md-6">
+          <a href="./product_prebuilt.html">
+            <img
+              class="builder"
+              src="./img/prebuiltpc.png"
+              alt="Klik hier om naar de Prebuilt pagina te gaan"
+            />
+          </a>
+        </div>
+        <div class="col col-md-6">
+          <a href="./product_builder.html">
+            <img
+              class="builder"
+              src="./img/factory.png"
+              alt="Klik hier om naar de Computer-Builder pagina te gaan"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--Dit geeft de Bar onder aan de website aan en de copyright tekst daar onder-->
+    <p id="newsletter"></p>
+    <p id="copyright"></p>
+  </body>
+</html>

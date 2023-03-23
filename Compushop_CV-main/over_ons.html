@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Pagina Title-->
+    <title>Compushop C.V | Inloggen</title>
+
+    <!--Links voor Bootstrap en jQuery-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Link voor de Pagina CSS-->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/over_ons.css" />
+
+    <!--Dit script laad header.html in de div met het ID content-->
+    <script>
+      // $ = query selector
+      $(document).ready(function () {
+        // .ready betekend dat de functie uitgevoerd kan worden als het document geladen is
+        $("#content").load("header.html");
+        $("#footer").load("footer.html");
+        $("#copyright").load("copyright.html");
+        // .load is een onderdeel van jQuery
+      });
+    </script>
+  </head>
+  <body>
+    <!--Deze div maakt de eerder ingeladen header en navigation bar "sticky-top"-->
+    <div id="content" class="sticky-top"></div>
+    <div class="container">
+      <form>
+        <h1>Over ons</h1>
+        <br />
+        <br />
+        <div class="form-group">
+          <p>
+            Compushop C.V is een specialist voor het verzorgen voor uw gekozen
+            hardware onderdelen, zowel prebuilt computers en custom. Heeft u een
+            nieuwe computer nodig maar wilt deze gewoon kant en klaar? Dat kan,
+            we hebben genoeg keuze voor allerlei verschillend soort gebruik. Zet
+            u liever uw eigen computer samen met onze verschillende onderdelen
+            en hardware? Dat kan ook! U kunt zelf de onderdelen opgestuurd
+            krijgen en zelf monteren, maar u kunt deze natuurlijk ook door ons
+            laten monteren. Wij bieden dit aan voor zowel particulier als
+            zakelijk.
+          </p>
+          <p>
+            Heeft u geen zin om naar de winkel te gaan, en wilt u vanuit thuis
+            een bestelling te doen? Bij ons kan dat! We hebben zelf geen lokale
+            winkel, we zijn puur een webshop. Wel bieden we dezelfde service aan
+            als bij een lokale winkel. Zo kunt u ons zowel bellen als emailen.
+            Voor iedere vraag kunt u ons bereiken van 08:00 - 21:00, en in het
+            weekend van 09:00 - 17:00. Wij staan ervoor om aan alle wensen van
+            onze klanten te voldoen. Onze medewerkers staan klaar om al uw
+            vragen te beantwoorden en uw wensen te vervullen.
+          </p>
+          <div class="row">
+            <div class="column">
+              <img src="img/foto_vincent.png" alt="Snow" style="width: 50%" />
+              <p>Mede-oprichter <br /><em>Vincent</em></p>
+            </div>
+            <div class="column">
+              <img src="img/foto_casper.png" alt="Forest" style="width: 50%" />
+              <p>Mede-oprichter <br /><em>Casper</em></p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <!--Dit geeft de Bar onder aan de website aan en de copyright tekst daar onder-->
+  <div id="newsletter"></div>
+  <p id="copyright"></p>
+</html>

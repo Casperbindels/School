@@ -1,0 +1,72 @@
+/* Sizing van de img */
+img {
+    height: 250px;
+    width: 250px;
+}
+
+/* Styling van de tekst bij de img */
+.section p {
+    color: #610808a1;
+    text-align: center;
+}
+
+/* Styling h2 */
+.h2 {
+    text-align: right;
+    text-shadow: 1px 1px #610808a1;
+    margin: 0px;
+    padding-left: 80px;   
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #610808a1;
+}
+
+/* .card img {
+    max-width: 70%;
+    height: auto;
+  }
+
+.card {
+    text-align: center;
+} */
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .container {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  form {
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color:#610808a1
+  }
+  
+  h1 {
+    margin-bottom: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,90 @@
+/* Styling voor de iFrame */
+#iFrame {
+    /* margin-top: 5%;
+    float: right; */
+    min-height: 550px;
+    /* min-width: 1150px; */
+}
+
+/* Margins van de Buttons */
+#buttons {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+/* Styling van de buttons (locatie) */
+.col button {
+    background-color: #834747;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: left;
+    border-radius: 8px;
+    min-width: 200px;
+    margin: 5px 5px;
+}
+
+/* Styling buttons (kleuren) */
+.myButton {
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    background: linear-gradient(to bottom, #610808a1 5%, #f58d8da1 100%);
+    background-color: #c62d1f;
+    border-radius: 18px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+}
+
+/* Buttons styling als je over de klop heen hovert */
+.myButton:hover {
+    background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+    background-color: #f24437;
+}
+
+/* Button click */
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+/* Overschrijft Bootstrap col en maakt de position static */
+.col {
+    position:static;
+}
+/* Hier volgen de kleuren van de buttons nadat je er op geklikt hebt */
+/* Styling buttons (kleuren) */
+.choosenButton {
+    box-shadow: 3px 4px 0px 0px #28218a;
+    background: linear-gradient(to bottom, #501acfa1 5%, #8da7f5a1 100%);
+    background-color: #1f1fc6;
+    border-radius: 18px;
+    border: 1px solid #3a18d0;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #180581;
+}
+
+/* Buttons styling als je over de klop heen hovert */
+.choosenButton:hover {
+    background: linear-gradient(to bottom, #3750f2 5%, #2d1fc6 100%);
+    background-color: #5337f2;
+}
+
+/* Button click */
+.choosenButton:active {
+    position: relative;
+    top: 1px;
+}

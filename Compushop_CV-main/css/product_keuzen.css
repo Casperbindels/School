@@ -1,0 +1,13 @@
+/* Border rondom de keuzen buttons en margins */
+.builder {
+    max-width: 400px;
+    border: 5px solid rgba(255, 0, 0, 0.39);
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Centreert de images */
+.col {
+    text-align: center;
+}

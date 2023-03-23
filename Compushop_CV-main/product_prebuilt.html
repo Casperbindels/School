@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Pagina Title-->
+    <title>Compushop C.V.C | Product Prebuilt</title>
+    
+    <!--Links voor Bootstrap en jQuery-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- Dit script laad header.html in de div met het ID content-->
+    <script>
+        // $ = query selector 
+        $(document).ready(function () {
+            // .ready betekend dat de functie uitgevoerd kan worden als het document geladen is
+            $('#content').load("header.html");
+            $('#copyright').load("copyright.html");
+            // .load is een onderdeel van jQuery
+        });
+    </script>
+
+    <!--Link voor de Pagina CSS-->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/product_prebuilt.css">
+</head>
+
+<body>
+    <!--Deze div maakt de eerder ingeladen header en navigation bar "sticky-top"-->
+    <div id="content" class="sticky-top"></div>
+
+    <div class="container-float">
+        <div class="row">
+            <div class="col col-md">
+                <div class="card">
+                    <img src="./img/computer1.png" alt="PC 1">
+                    <h1>Ol' Reliable</h1>
+                    <p class="price">€199,99</p>
+                    <p>Een mooie budget-computer met een simpele Nvidia RTX-3060 TI videokaart, 500GB Solid State Drive
+                        en een i9 9900k Intel Core.</p>
+                    <p><button>Zet in Winkelwagen</button></p>
+                </div>
+            </div>
+            <div class="col col-md">
+                <div class="card">
+                    <img src="./img/computer2.png" alt="PC 2">
+                    <h1>Standard</h1>
+                    <p class="price">€299,99</p>
+                    <p>Een iets geavanceerder computer met een iets krachtigere Nvidia RTX-3070 TI videokaart, 1TB Solid
+                        State Drive en een i9 9900k Intel Core.</p>
+                    <p><button>Zet in Winkelwagen</button></p>
+                </div>
+            </div>
+            <div class="col col-md">
+                <div class="card">
+                    <img src="./img/computer3.png" alt="PC 3">
+                    <h1>Mac-ain't-tosh</h1>
+                    <p class="price">€399,99</p>
+                    <p>Een nog iets geavanceerder computer met een nog iets krachtigere Nvidia RTX-3080 TI videokaart,
+                        2TB Solid State Drive en een i9 11900k Intel Core.</p>
+                    <p><button>Zet in Winkelwagen</button></p>
+                </div>
+            </div>
+            <div class="col col-md">
+                <div class="card">
+                    <img src="./img/computer4.png" alt="PC 4">
+                    <h1>Retro Beest</h1>
+                    <p class="price">€499,99</p>
+                    <p>Een zeer krachtige computer met een Nvidia RTX-3090 TI videokaart, 10TB Solid State Drive en een
+                        i9 12900k Intel Core.</p>
+                    <p><button>Zet in Winkelwagen</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Dit geeft de Bar onder aan de website aan en de copyright tekst daar onder-->
+    <div id="newsletter"> </div>
+    <div id="copyright"></div>
+</body>
+
+</html>

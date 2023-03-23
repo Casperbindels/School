@@ -1,0 +1,16 @@
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #610808a1;
+}
+
+.card img {
+    max-width: 30%;
+    height: auto;
+    border: 5px solid;
+    color: rgba(97, 8, 8, 0.63);
+  }
+
+.card {
+    text-align: center;
+    color: #610808a1;
+}
+

@@ -1,0 +1,24 @@
+/* Centreert alle <p> tekst */
+p {
+    text-align: center;
+}
+
+/* Overschrijft bootstrap col en geeft dit een andere styling */
+.col {
+    background-color: #d69d9d;
+    margin-inline: 25px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+/* Grote van de foto's */
+.img_news {
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Font */
+.bold {
+    font-weight: bold;
+}

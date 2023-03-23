@@ -1,0 +1,51 @@
+/* style Heading & paragraaf */
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  /* style onderlinge afstand rows */
+.row {
+    margin: 5px !important;
+}
+  /* style card */
+.card {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+  /* style labels bij invoer */
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  /* style van invoervelden */
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #610808a1;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+    
+ /* style voor radiobuttons */ 
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  /*style selecteer bestand invoerveld  */
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  /* style kleur placeholder tekstveld */
+  .placeholder-color::placeholder {
+    color:white
+  }
+/* style buttons altijd maar 1 kleur */
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #610808a1 !important;
+}
